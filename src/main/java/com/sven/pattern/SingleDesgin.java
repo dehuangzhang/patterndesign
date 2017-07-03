@@ -15,9 +15,8 @@ public class SingleDesgin {
      * 双重锁
      */
     public static SingleDesgin init() {
-        Integer i = 10;
         if (singleDesgin == null) {
-            synchronized (i) {
+            synchronized (SingleDesgin.class) {
                 if (singleDesgin == null) {
                     singleDesgin = new SingleDesgin();
                 }
