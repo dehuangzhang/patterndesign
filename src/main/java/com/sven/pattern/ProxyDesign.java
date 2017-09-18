@@ -25,7 +25,7 @@ public class ProxyDesign implements Design {
 
 interface Design {
 
-    public void test(int i);
+    void test(int i);
 }
 
 class DynamicProxy implements InvocationHandler {
