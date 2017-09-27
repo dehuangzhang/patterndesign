@@ -1,7 +1,9 @@
 package com.sven.pattern;
 
 /**
- * Created by wb-zdh274635 on 2017/7/3.
+ * @note 单例模式
+ * @author sven.zhang
+ * @since 2017/9/27
  */
 public class SingleDesgin {
 

@@ -7,6 +7,7 @@ import java.util.Set;
  * @author sven.zhang
  * @since 2017-09-18
  * @note 观察者设计模式
+ * @note 一对多关系，当一对象状态改变，其他依赖对象收到通知，改变状态
  */
 public class ObserverDesign {
 

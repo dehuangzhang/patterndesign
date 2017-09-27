@@ -5,9 +5,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * Created by wb-zdh274635 on 2017/6/29.
- * 
- * @author wb-zdh274635
+ * @author sven.zhang
+ * @since 2017/6/29.
+ * @note 代理模式
  */
 public class ProxyDesign implements Design {
 
