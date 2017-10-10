@@ -8,6 +8,7 @@ package com.sven.pattern;
  * @note 比如 I/O 采用的就是装饰者模式
  * @note 装饰者与被装饰者拥有共同的超类，继承的目的是继承类型，而不是行为
  * @note 将被装饰者作为装饰者构造器的参数
+ * @note 开放关闭原则实践者
  */
 public class DecoratorDesign {
 
