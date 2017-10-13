@@ -9,7 +9,7 @@ package com.sven.pattern;
  * @note 提供一个接口，用于创建相关或依赖对象的家族，而不需要明确制定具体类
  * @note 适用场景： 当需要创建的对象是一系列相互关联或相互依赖的产品族
  */
-public class AbstractFactory {
+public class AbstractFactoryPattern {
     public static void main(String[] args) {
         ComputerFactory factory = new AcerComoputer();
         factory.createCPU();

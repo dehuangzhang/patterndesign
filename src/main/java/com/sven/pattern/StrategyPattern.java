@@ -6,7 +6,7 @@ package com.sven.pattern;
  * @note 策略模式
  * @note 定义了算法族，分别封装，让他们之间可以相互替换，让算法的变化独立于使用算法的客户
  */
-public class StrategyDesign {
+public class StrategyPattern {
 
     public static void main(String[] args) {
         ContextStrategy strategy = new ContextStrategy(new FiveDiscountStrategy());

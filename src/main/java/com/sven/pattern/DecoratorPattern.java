@@ -10,7 +10,7 @@ package com.sven.pattern;
  * @note 将被装饰者作为装饰者构造器的参数
  * @note 开放关闭原则实践者
  */
-public class DecoratorDesign {
+public class DecoratorPattern {
 
     public static void main(String[] args) {
         Coco coco = new Coconut(new MilkyTea());

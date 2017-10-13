@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
  * @since 2017/6/29.
  * @note 代理模式
  */
-public class ProxyDesign implements Design {
+public class ProxyPattern implements Design {
 
     @Override
     public void test(int i) {
@@ -17,8 +17,8 @@ public class ProxyDesign implements Design {
     }
 
     public static void main(String[] args) throws Exception {
-        Design p = (Design) Proxy.newProxyInstance(ProxyDesign.class.getClassLoader(), new Class[] { Design.class },
-                                                   new DynamicProxy(new ProxyDesign()));
+        Design p = (Design) Proxy.newProxyInstance(ProxyPattern.class.getClassLoader(), new Class[] { Design.class },
+                                                   new DynamicProxy(new ProxyPattern()));
         p.test(10);
     }
 }

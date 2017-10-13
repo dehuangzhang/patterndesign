@@ -12,7 +12,7 @@ import java.util.List;
  * @author sven.zhang
  * @since 2017/9/27
  */
-public class ComponentDesign {
+public class ComponentPattern {
 
     public static void main(String[] args) {
         MenuComponent aMenu = new Menu("A", "A O U");

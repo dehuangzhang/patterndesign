@@ -10,7 +10,7 @@ import java.util.List;
  * @author sven.zhang
  * @since 2017/9/27
  */
-public class IteratorDesign {
+public class IteratorPattern {
 
     public static void print(Iterator iterator) {
         while (iterator.hasNext()) {

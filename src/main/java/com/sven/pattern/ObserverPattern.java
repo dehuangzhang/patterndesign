@@ -10,7 +10,7 @@ import java.util.Set;
  * @note 一对多关系，当一对象状态改变，其他依赖对象收到通知，改变状态，不可依赖通知的顺序
  * @note 松耦合
  */
-public class ObserverDesign {
+public class ObserverPattern {
 
     public static void main(String[] args) {
         Subject subject = new Subject();

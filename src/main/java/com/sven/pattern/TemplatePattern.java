@@ -6,7 +6,7 @@ package com.sven.pattern;
  * @note 模板设计模式
  * @note 算法的步骤是固定的，继承抽象类，公共部分抽象类处理
  */
-public class TemplateDesign {
+public class TemplatePattern {
 
     public static void main(String[] args) {
         Template template = new DayTemplate();
