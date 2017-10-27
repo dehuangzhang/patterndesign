@@ -4,10 +4,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @note 单例模式 确保只有一个实例，并提供一个全局的访问点
  * @author sven.zhang
  * @since 2017/9/27
- * @note
+ * @单例模式 确保只有一个实例，并提供一个全局的访问点
  */
 public class SinglePattern {
 
@@ -19,7 +18,7 @@ public class SinglePattern {
             executor.execute(() -> DoubleCheckLock.getInstance());
             i++;
         }
-       // executor.shutdown();
+        // executor.shutdown();
     }
 }
 

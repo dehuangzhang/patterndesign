@@ -1,15 +1,15 @@
 package com.sven.pattern;
 
 /**
- * @note 抽象工厂
- * @note 产品族
  * @author sven.zhang
  * @since 2017/10/10
- * @note 依赖倒置 要依赖抽象，不依赖具体类
- * @note 提供一个接口，用于创建相关或依赖对象的家族，而不需要明确制定具体类
- * @note 适用场景： 当需要创建的对象是一系列相互关联或相互依赖的产品族
+ * @抽象工厂模式 提供一个接口，用于创建相关或依赖对象的家族，而不需要明确制定具体类
+ * @特点 产品族
+ * @特点 依赖倒置 要依赖抽象，不依赖具体类
+ * @适用场景： 当需要创建的对象是一系列相互关联或相互依赖的产品族
  */
 public class AbstractFactoryPattern {
+
     public static void main(String[] args) {
         ComputerFactory factory = new AcerComoputer();
         factory.createCPU();

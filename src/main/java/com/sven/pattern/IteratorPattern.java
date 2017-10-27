@@ -5,10 +5,9 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @note 迭代器模式
- * @note 提供了一种顺序访问一个聚合对象中各元素而又不暴露该对象内部结构的方法
  * @author sven.zhang
  * @since 2017/9/27
+ * @迭代器模式 提供了一种顺序访问一个聚合对象中各元素而又不暴露该对象内部结构的方法
  */
 public class IteratorPattern {
 

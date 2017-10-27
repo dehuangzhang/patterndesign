@@ -1,12 +1,13 @@
 package com.sven.pattern;
 
 /**
- * @note 适配器模式 将一个类的接口，转换成客户期望的另一个接口。
- * @note 应用场景:
  * @author sven.zhang
  * @since 2017/10/25
+ * @适配器模式 将一个类的接口，转换成客户期望的另一个接口。
+ * @应用场景 转换接口
  */
 public class AdapterPattern {
+
     public static void main(String[] args) {
         Adaptee adaptee = new Adaptee();
         Adapter adapter = new Adapter(adaptee);
